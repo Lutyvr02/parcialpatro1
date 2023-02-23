@@ -4,7 +4,7 @@ public class Estudiante1 {
 //título,mención, datos del
 //estudiante)
 
-    private static Estudiante ty = null;
+    private static Estudiante1 ty = null;
     private String titulo;
     private String mencion;
     private String Datos;
@@ -15,9 +15,9 @@ public class Estudiante1 {
         this.mencion=mencion;
     }
 
-    public static Estudiante getInstance(){
+    public static Estudiante1 getInstance(){
         if (ty == null){
-            ty = new Estudiante("inge","es malo","vinicius jr");
+            ty = new Estudiante1("inge","es malo","vinicius jr");
         }
         return ty;
     }

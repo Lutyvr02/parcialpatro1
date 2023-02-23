@@ -17,8 +17,7 @@ public class tesis2 {
     }
     public static tesis2 getInstance(){
         if (ty == null){
-            ty = new tesis2("doctor","es bueno", new Estudiante2("futbolista"
-                    ,"el balon de oro","KArim benzema"),"10/12/12", "gastronomia");
+            ty = new tesis2("doctor","es bueno", Estudiante2.getInstance(),"10/12/12", "gastronomia");
         }
         return ty;
     }

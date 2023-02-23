@@ -18,8 +18,7 @@ public class tesis1 {
 
     public static tesis1 getInstance(){
         if (ty == null){
-            ty = new tesis1("doctor","es bueno", new Estudiante1("inge","es malo",
-                    "vinicius jr"),"10/12/12", "Exploracion");
+            ty = new tesis1("doctor","es bueno", Estudiante1.getInstance(),"10/12/12", "Exploracion");
         }
         return ty;
     }
